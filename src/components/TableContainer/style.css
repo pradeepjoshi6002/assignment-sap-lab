@@ -1,0 +1,31 @@
+table {
+  overflow: hidden;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr,
+td,
+th {
+  border: 1px solid;
+  text-overflow: ellipsis;
+}
+
+th {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: lightgray;
+}
+
+td {
+  padding: 0.2rem 0;
+}
+.pagination-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+caption {
+  display: none;
+}
